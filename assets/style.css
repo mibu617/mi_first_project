@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: navy;
+}
+h2 {
+  color: brown;
+}
+h3 {
+  color: indigo;
+}
+h4 {
+  color: olive;
+}
+img {
+  max-width: 50%;
+  height: auto;
+}
+.imagen {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+iframe {
+  width: 80%;
+  height: 400px;
+}

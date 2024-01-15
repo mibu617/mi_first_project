@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primer HTML</title>
+    <meta name="description" content="Practicando mi primera pagina web" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <meta name="theme-color" content="#FF6600">
+
+    <meta property="og:title" content="Primer HTML" />
+    <meta property="og:description" content="Esta es mi primera pagina con HTML" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+    <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+  </head>
+
+
+  <body>
+    <h2 id="inicio">Aprendiendo HTML</h2>
+    <h2>Hola, bienvenido a mi primera pagina! </h2>
+    <p>Aprendiendo sobre Diseño Web</p>
+      <h3>Temario del curso</h3>
+      <ul>
+        <li><a href="index.html#titulos">Titulos HTML</a></li>
+        <li><a href="index.html#textos_basicos">Etiquetas de texto basicas</a></li>
+        <li><a href="index.html#contexto_parrafos">Contexto en parrafos</a></li>
+        <li><a href="index.html#etiqueta_formateo">Etiquetas de Formateo</a></li>
+        <li><a href="index.html#estructura_semantica">Estructura Semantica Estructurales</a></li>
+        <li><a href="index.html#bloque_vs_linea">Etiquetas de bloque VS etiquetas de linea</a></li>
+        <li><a href="index.html#estilos_css">Estilos con CSS</a></li>
+        <li><a href="index.html#imagenes">Imagenes en HTML</a></li>
+        <li><a href="index.html#listas_ordenadas">Listas Ordenadas</a></li>
+        <li><a href="index.html#listas_desordenadas">Listas Desordenadas</a></li>
+        <li><a href="index.html#listas_definicion">Listas de Definicion</a></li>
+        <li><a href="index.html#tablas">Tablas</a></li>
+        <li><a href="index.html#enlaces">Enlaces</a></li>
+        <li><a href="index.html#elementos_interactivos">Elementos Interactivos</a></li>
+        <li><a href="index.html#audio_y_video">Audio y Video</a></li>
+        <li><a href="index.html#iframe">Iframe</a></li>
+        <li><a href="index.html#formularios">Formularios</a></li>
+        <li><a href=""></a></li>
+      </ul>
+
+
+    <hr>
+    <h2 id="titulos">Titulos HTML</h2>
+    <h1>titulo 1</h1>
+    <h2>titulo 2</h2>
+    <h3>titulo 3</h3>
+    <h4>titulo 4</h4>
+    <h5>titulo 5</h5>
+    <h6>titulo 6</h6>
+    <a href="index.html#inicio">🆙</a>
+    <hr>
+    <h2 id="textos_basicos">Etiquetas de texto basicas</h2>
+    <p>Un parrafo</p>
+    <p>Parrafos aleatorios "Lorem": Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam delectus in voluptates dolores autem maiores sit molestiae, dolorem dolor reiciendis. Sint molestias obcaecati est pariatur ipsum consequatur itaque impedit ipsam.</p>
+    <p>
+      Palabras en: <b>Negrita</b> - <i>Cursiva</i> - <u>Subrayado</u> - e=mc<sup
+        >2</sup
+      >
+      - H<sub>2</sub>O <small>Letra pequeña</small> <mark> Resaltado</mark>
+    </p>
+    <p>Sintaxis: <strong>Palabras con importancia</strong> <em>Texto con enfasis</em>
+    <blockquote>Yo solo se que nada se</blockquote> <cite>Socrates</cite></p>
+
+    <a href="index.html#inicio">🆙</a>
+    <hr>
+    <h2 id="contexto_parrafos">Contexto en parrafos </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Asperiores nihil iusto vel doloremque, veniam deleniti provident consectetur quis consequuntur vitae, ab excepturi quia aliquid veritatis, dolores fuga totam voluptas repudiandae! <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis odio nam laboriosam quo? Quam pariatur cum possimus dolorem sint eum ipsam, sit reprehenderit veritatis. <br><br>Esse itaque sapiente doloremque voluptates.</p>
+<a href="index.html#inicio">🆙</a>
+    <hr>
+    <h2 id="etiqueta_formateo">Etiquetas de Formateo</h2>
+    <p>
+    <pre>
+      Tareas por hacer:
+       -Terminar el video de HTML 
+       -Almorzar
+       -Ir al GYM
+    </pre>
+   </p>
+   <a href="index.html#inicio">🆙</a>
+   <hr>
+   <h2 id="estructura_semantica"> Estructura Semantica Estructurales</h2>
+    <div> Es una etiqueta contenedora que no tiene semántica </div>
+<header> header - Cabecera de un sitio web o de una sección </header>
+<main> main - Define la sección principal del documento, sólo puede existir una etiqueta main por documento</main>
+<footer> footer - Pié de página de un sitio web o de una sección </footer>
+<nav> nav - Representa una navegación </nav>
+<article>article - Representa una sección autocontenido (que por sí sola se explica)</article>
+<aside > aside - Representa contenido complementario o secundario </aside > 
+<section > section - Representa una sección de contenido genérico </section> 
+<address>address - Representa un dirección física o de contacto </address>
+<a href="index.html#inicio">🆙</a>
+<hr>
+<h2 id="bloque_vs_linea">Etiquetas de bloque VS etiquetas de linea</h2>
+  <div style="background-color: burlywood;">La etiqueta de bloque por excelencia es la "div"</div>
+  <span style="background-color: aquamarine;">La etiqueta de linea por excelencia es la "spam"</span>
+  <br>
+  <a href="index.html#inicio">🆙</a>
+  <hr>
+  <h2 id="estilos_css">Estilos con CSS </h2>
+  <p> link rel="stylesheet" href="assets/style.css" </p>
+  <a href="index.html#inicio">🆙</a>
+  <hr>
+  <h2 id="script"> Script en HTML </h2>
+  <p> script src="assets/codigo.js"/script </p>
+  <a href="index.html#inicio">🆙</a>
+  <hr>
+  <h2 id="imagenes">Imagenes en HTML</h2>
+    <h3>Imagen jpg </h3>
+    <img src="img/this is fine.jpg" alt="thisfine" >
+    <h3>Imagen pgn </h3>
+    <img src="img/this is fine pgn.png" alt="thisfinepgn">
+    <h3>Gif</h3>
+    <img src="img/giphy.gif" alt="gitthis">
+    <h3>Imagen svg</h3>
+    <img src="img/this is fine svg.svg" alt="thisfinesvg">
+    <br>
+    <a href="index.html#inicio">🆙</a>
+    <hr>
+    <h2 id="listas_ordenadas">Listas Ordenadas</h2>
+    <h3>Meses del año</h3>
+    <ol>
+      <li>enero</li>
+      <li>febrero</li>
+      <li>marzo</li>
+      </ol>
+      <ol start="4">
+      <li>abril</li>
+      <li>mayo</li>
+      <li>junio</li>
+      </ol>
+      <ol type="I" start="7">
+        <li>julio</li>
+        <li>agosto</li>
+        <li>septiembre</li>
+      </ol>
+      <a href="index.html#inicio">🆙</a>
+      <hr>
+      <h2 id="listas_desordenadas">Listas Desordenadas</h2>
+      <h3>Cosas por hacer</h3>
+      <ul type="square">
+        <li>Buscar a Brigith </li>
+        <li>terminar de ver los videos</li>
+        <li>regar las plantas</li>
+      </ul>
+      <a href="index.html#inicio">🆙</a>
+    <hr>
+    <h2 id="listas_definicion">Listas de Definicion</h2>
+    <dl>
+      <dt><b>HTML</b></dt>
+      <dd>Es un lenguaje de marcado que define el contenido de la web</dd>
+      <dt><b>CSS</b></dt>
+      <dd>Es un lenguaje de definicon que le da estilos a HTML</dd>
+      <dt><b>JavaS </b></dt>
+      <dd>Es el lenguaje de la web</dd>
+    </dl>
+    <a href="index.html#inicio">🆙</a>
+    <hr>
+    <h2 id="tablas">Tablas</h2>
+    <table>
+      <thead>
+          <tr>
+            <th colspan="3">Tabla integrantes primer año escuela de brujeria</th>
+          </tr>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Poder Maldito</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Itadori</td>
+          <td>Yuji</td>
+          <td>Golpe Divergente</td>
+        </tr>
+          <tr>
+          <td>Megumi </td>
+          <td>Fushiguro</td>
+          <td>Diez sombras</td>
+        </tr> 
+         <tr>
+          <td>Nobara</td>
+          <td>Kugisaki</td>
+          <td>Resonancia</td>
+        </tr>
+        </tbody>
+      <tfoot>
+        <tr>
+       <th colspan="3"><i> Profesor asignado: Satoru Gojo</i></th> 
+      </tr>
+      </tfoot>
+    </table>
+    <a href="index.html#inicio">🆙</a>
+    <hr>
+    <h2 id="enlaces">Enlaces</h2>
+    <a href="index2.html">Hacia Index 2.0</a>
+    <br><br>
+    <a href="https://linkedin.com/in/miguelangelbp17" target="_blank" rel="nofollow">Visita mi Linkeding </a>
+    <br><br>
+    <a href="https://youtube.com"target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 7H19C19.5523 7 20 7.44771 20 8V16C20 16.5523 19.5523 17 19 17H5C4.44772 17 4 16.5523 4 16V8C4 7.44772 4.44772 7 5 7ZM2 8C2 6.34315 3.34315 5 5 5H19C20.6569 5 22 6.34315 22 8V16C22 17.6569 20.6569 19 19 19H5C3.34315 19 2 17.6569 2 16V8ZM10 9L14 12L10 15V9Z" fill="currentColor" /></svg>
+    </a>
+    <br>
+    <a href="mailto:miguelangel.bp17@gmail.com"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.00977 5.83789C3.00977 5.28561 3.45748 4.83789 4.00977 4.83789H20C20.5523 4.83789 21 5.28561 21 5.83789V17.1621C21 18.2667 20.1046 19.1621 19 19.1621H5C3.89543 19.1621 3 18.2667 3 17.1621V6.16211C3 6.11449 3.00333 6.06765 3.00977 6.0218V5.83789ZM5 8.06165V17.1621H19V8.06199L14.1215 12.9405C12.9499 14.1121 11.0504 14.1121 9.87885 12.9405L5 8.06165ZM6.57232 6.80554H17.428L12.7073 11.5263C12.3168 11.9168 11.6836 11.9168 11.2931 11.5263L6.57232 6.80554Z" fill="currentColor" /></svg></a>
+    <br>
+    <a href="tel:+541176291015"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 16H11V18H13V16Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M5 4C5 2.89543 5.89543 2 7 2H17C18.1046 2 19 2.89543 19 4V20C19 21.1046 18.1046 22 17 22H7C5.89543 22 5 21.1046 5 20V4ZM7 4H17V20H7L7 4Z" fill="currentColor" /></svg></a>
+    <br>
+    <a href="https://api.whatsapp.com/send?phone=+541176291015&text=Hola bienvenido"target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 9H7V7H17V9Z" fill="currentColor" /><path d="M7 13H17V11H7V13Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M2 18V2H22V18H16V22H14C11.7909 22 10 20.2091 10 18H2ZM12 16V18C12 19.1046 12.8954 20 14 20V16H20V4H4V16H12Z" fill="currentColor" /></svg></a>
+    <br>
+    <a href="index.html#inicio">🆙</a>
+<hr>
+<h2 id="elementos_interactivos">Elementos Interactivos</h2>
+<button onclick="alert(`ALERTA`)">Alerta</button>
+    <br>
+    <details>
+      <summary>Lista Escondida</summary>
+      <article>
+        <img src="img/this is fine.jpg" alt="">
+        <h4>Probando</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit labore iure culpa, eos temporibus ullam quisquam consequatur dicta! Commodi veritatis voluptas, ab voluptatum quisquam molestiae autem eos culpa repudiandae. Deleniti!</p>
+      </article>
+    </details>
+    
+    <dialog open>
+      Esto es una ventana flotante
+    </dialog>
+<br>
+    <a href="index.html#inicio">🆙</a>
+
+    <hr>
+    <h2 id="audio_y_video">Audio y Video</h2>
+    <img src="img/spinetta.jpg" class="imagen" alt="spinetta">
+    <h3>Bajan - Luis Alberto Spinetta & Gustavo Cerati</h3>
+    <audio src="media/Bajan - Luis Alberto Spinetta ft. Gustavo Cerati.mp3" controls preload></audio>
+    <br>
+    <h3>Musica 8D</h3>
+    <video src="media/8D.mp4"controls preload></video>
+    <br>
+    <a href="index.html#inicio">🆙</a>
+    <hr>
+      <h2 id="iframe">Iframes</h2>
+      <h3>Mas sobre el "Flaco"</h3>
+      <iframe src="https://es.wikipedia.org/wiki/Luis_Alberto_Spinetta" frameborder="2"></iframe>
+      <br><br>
+      <h3>Ubicacion paso bajo nivel Luis Alberto Spinetta</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13142.382032896467!2d-58.48858380489021!3d-34.563795500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb78217d86653%3A0xda38c981bffc9b32!2sPaso%20bajo%20nivel%20-%20Luis%20Alberto%20Spinetta!5e0!3m2!1ses-419!2sar!4v1704991211873!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+<br><br>
+      <h3>Historia del "Flaco"</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/K9tHLen7afk?si=GceCx7qJDX3ej6e6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <a href="index.html#inicio">🆙</a>
+<hr>
+<h2 id="formularios">Formularios</h2>
+<h3>Elementos de los Formularios</h3>
+<label for=>Caja de texto:</label>
+    <input type="text">
+    <br><br>
+    <label for=>Select:</label>
+    <input type="radio">
+    <br><br>
+    <label for=>Check Box:</label>
+    <input type="checkbox">
+    <br><br>
+    <label for=>Calendario:</label>
+    <input type="date">
+    <br><br>
+    <label for=>Selector color:</label>
+    <input type="color">
+    <br><br>
+    <label for=>Boton genérico:</label>
+    <input type="button" value="Boton">
+    <br><br>
+    <label for=>Boton de Enviar:</label>
+    <input type="submit">
+    <br><br>
+    <label for=>Boton reset:</label>
+    <input type="reset">
+    <br><br>
+    <label for=>Caja para introducir numero:</label>
+    <input type="number">
+    <br><br> 
+    <label for=>Caja para introducir telefonos:</label>
+    <input type="tel">
+    <br><br> 
+    <label for=>Caja para introducir mail:</label>
+    <input type="email">
+    <br><br> 
+    <label for=>Caja para introducir contraseñas:</label>
+    <input type="password">
+    <br><br> 
+    <label for=>Caja de buscar archivo:</label>
+    <input type="search">
+    <br><br> 
+     <label for=>Area de texto:</label>
+    <textarea cols="50" rows="10"></textarea>
+    <br><br>
+    <select name="" id="">
+      <option value="">HTML</option>
+      <option value="">CSS</option>
+      <option value="">JavaS</option>
+    </select> 
+    <br><br>
+    <h3>Atributos a formulacios</h3>
+    <input type="text" value="inhabilitado" readonly disabled>
+    <br><br>
+    <input type="text" placeholder="Escribe tu nombre aqui.">
+    <br><br>
+    <h3>Ejemplo de formulario</h3>
+    <h4>Formulario de inicio de sesion</h4>
+    <form action="https://google.com">
+      <label for="Nombre">Nombre:</label>
+      <input type="text" placeholder="Escribe tu Nombre" name="Nombre" id="Nombre" required pattern="^ [A-Za-z]+$" title="El campo solo acepta letras">
+      <label for="usuario">Usiario:</label>
+      <input type="text" placeholder="Escribe tu usuario" name="usuario" id="usuario" required>
+      <label for="password">Contraseña:</label>
+      <input type="password" placeholder="Escribe tu contraseña" name="password" id="password" required>
+      <br>  
+      <input type="submit">
+    <br>
+    <input type="reset">
+    </form>
+    
+    <h3>Selects, Radios y Checkbox</h3>
+    <form id="formulario9">
+      <p>Elige tu Idioma</p>
+      <select name="idioma" required id="idiom">
+        <option value="">Elige una opcion</option>
+      <option value="es">español</option>
+      <option value="en">ingles</option>
+      <option value="fr">frances</option>
+      <option value="it">italiano</option>
+      <option value="pt">portugues</option>
+      </select>
+      <br><br>
+      <p>Elige tu lenguaje de programacion favorito</p>
+      <label for="radio-js">JavaS</label>
+      <input type="radio" name="lenguaje" id="radio-js" value="js" required>
+      
+      <label for="radio-py">Python</label>
+      <input type="radio" name="lenguaje" id="radio-py" value="py">
+      
+      <label for="radio-php">PHP</label>
+      <input type="radio" name="lenguaje" id="radio-php" value="php">
+      <br><br>
+      <p>Elije tus generos musicales favoritos</p>
+      <label>
+        <input type="checkbox" name="generos" value="rock" required>
+        Rock
+      </label>
+      <label>
+        <input type="checkbox" name="generos" value="pop">
+        Pop
+      </label>
+      <label>
+        <input type="checkbox" name="generos" value="regge">
+        Regge
+      </label>
+      <label>
+        <input type="checkbox" name="generos" value="electro">
+        Electro
+      </label>
+      <label>
+        <input type="checkbox" name="generos" value="jazz">
+        Jazz
+      </label>
+      <br>
+      <input type="submit">
+    <br>
+    <input type="reset">
+    <p>Aceptas los terminos y condiciones?</p>
+    <input type="checkbox"required>
+    </form>
+      <br>
+    <form action="https://formsubmit.co/miguelangel.bp17@gmail.com" method="POST">
+     <input type="text" name="name" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+     <br>
+     <input type="email" name="email" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" required>
+     <br>
+     <textarea name="Comentarios" cols="30" rows="10" placeholder="Escribe un comentario" required></textarea>
+     <br>
+     <input type="submit">
+</form>
+     <a href="index.html#inicio">🆙</a>
+    <hr>
+    <hr>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <script src="assets/codigo.js"></script>
+  </body>
+</html>
